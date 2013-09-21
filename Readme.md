@@ -1,4 +1,3 @@
-
 # rework-pseudos
 
 rework pseudo elements support
@@ -93,8 +92,8 @@ yields
 
 ## References
 
-  - [webkit pseudo elements](https://gist.github.com/yields/6648453)
   - [firefox pseudo elements](https://gist.github.com/yields/6648240)
+  - [webkit pseudo elements](https://gist.github.com/yields/6648208)
   - [trident pseudo elements](http://dev.bowdenweb.com/css/pseudo/ms-trident-vendor-prefixed-pseudo-elements.html)
 
 ## Tests
