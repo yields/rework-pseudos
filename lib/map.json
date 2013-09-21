@@ -1,0 +1,28 @@
+{
+  "::selection": [
+    "::selection",
+    "::-moz-selection"
+  ],
+  "::placeholder": [
+    "::-webkit-input-placeholder",
+    ":-ms-input-placeholder",
+    "::-moz-placeholder"
+  ],
+  "::progress": [
+    "::-webkit-progress-bar",
+    "::-moz-progress-bar",
+    "::-ms-fill"
+  ],
+  "::browse": [
+    "::-webkit-file-upload",
+    "::-ms-browse"
+  ],
+  "::clear": [
+    "::-webkit-clear-button",
+    "::-ms-clear"
+  ],
+  "::select": [
+    "::-moz-dropdown-list",
+    "::-ms-expand"
+  ]
+}

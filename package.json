@@ -1,0 +1,11 @@
+{
+  "name": "rework-pseudos",
+  "description": "rework pseudo elements support",
+  "version": "0.0.1",
+  "dependencies": {},
+  "devDependencies": {
+    "rework": "*",
+    "should": "*",
+    "mocha": "*"
+  }
+}

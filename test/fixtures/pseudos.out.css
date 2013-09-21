@@ -1,0 +1,8 @@
+
+::selection {
+  color: yellow;
+}
+
+::-moz-selection {
+  color: yellow;
+}
