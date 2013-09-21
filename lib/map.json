@@ -20,9 +20,5 @@
   "::clear": [
     "::-webkit-clear-button",
     "::-ms-clear"
-  ],
-  "::select": [
-    "::-moz-dropdown-list",
-    "::-ms-expand"
   ]
 }
