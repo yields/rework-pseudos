@@ -2,6 +2,10 @@
 
 rework pseudo elements support
 
+## Installation
+
+    $ npm install rework-pseudos
+
 ## Example
 
 ```js
