@@ -1,4 +1,10 @@
 
+0.2.0 / 2013-09-30
+==================
+
+ * add @keyframes, @media support, closes #3
+ * add better example
+
 0.1.0 / 2013-09-30
 ==================
 

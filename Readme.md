@@ -39,6 +39,13 @@ textarea::placeholder {
   font: 200 14px/1.6 'Helvetica Neue';
 }
 
+@media print {
+  ::placeholder,
+  .text {
+    font-weight: bold;
+  }
+}
+
 ```
 
 yields
