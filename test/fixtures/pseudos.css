@@ -4,5 +4,18 @@
  */
 
 ::selection {
-  color: yellow;
+  background: #ddd;
+}
+
+::progress {
+  background: #ddd;
+}
+
+.text::selection {
+  background: #eee;
+}
+
+input::placeholder,
+textarea::placeholder {
+  font: 200 14px/1.6 'Helvetica Neue';
 }

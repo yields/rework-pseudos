@@ -3,10 +3,54 @@
  * Comment.
  */
 
-::selection {
-  color: yellow;
+::-moz-selection {
+  background: #ddd;
 }
 
-::-moz-selection {
-  color: yellow;
+::selection {
+  background: #ddd;
+}
+
+::-ms-fill {
+  background: #ddd;
+}
+
+::-moz-progress-bar {
+  background: #ddd;
+}
+
+::-webkit-progress-bar {
+  background: #ddd;
+}
+
+.text::-moz-selection {
+  background: #eee;
+}
+
+.text::selection {
+  background: #eee;
+}
+
+input::-moz-placeholder {
+  font: 200 14px/1.6 'Helvetica Neue';
+}
+
+input:-ms-input-placeholder {
+  font: 200 14px/1.6 'Helvetica Neue';
+}
+
+input::-webkit-input-placeholder {
+  font: 200 14px/1.6 'Helvetica Neue';
+}
+
+textarea::-moz-placeholder {
+  font: 200 14px/1.6 'Helvetica Neue';
+}
+
+textarea:-ms-input-placeholder {
+  font: 200 14px/1.6 'Helvetica Neue';
+}
+
+textarea::-webkit-input-placeholder {
+  font: 200 14px/1.6 'Helvetica Neue';
 }
