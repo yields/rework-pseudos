@@ -14,6 +14,95 @@ rework(css)
   .toString();
 ```
 
+### style.css
+
+```css
+
+/**
+ * Comment.
+ */
+
+::selection {
+  background: #ddd;
+}
+
+::progress {
+  background: #ddd;
+}
+
+.text::selection {
+  background: #eee;
+}
+
+input::placeholder,
+textarea::placeholder {
+  font: 200 14px/1.6 'Helvetica Neue';
+}
+
+```
+
+yields
+
+```css
+
+/**
+ * Comment.
+ */
+
+::-moz-selection {
+  background: #ddd;
+}
+
+::selection {
+  background: #ddd;
+}
+
+::-ms-fill {
+  background: #ddd;
+}
+
+::-moz-progress-bar {
+  background: #ddd;
+}
+
+::-webkit-progress-bar {
+  background: #ddd;
+}
+
+.text::-moz-selection {
+  background: #eee;
+}
+
+.text::selection {
+  background: #eee;
+}
+
+input::-moz-placeholder {
+  font: 200 14px/1.6 'Helvetica Neue';
+}
+
+input:-ms-input-placeholder {
+  font: 200 14px/1.6 'Helvetica Neue';
+}
+
+input::-webkit-input-placeholder {
+  font: 200 14px/1.6 'Helvetica Neue';
+}
+
+textarea::-moz-placeholder {
+  font: 200 14px/1.6 'Helvetica Neue';
+}
+
+textarea:-ms-input-placeholder {
+  font: 200 14px/1.6 'Helvetica Neue';
+}
+
+textarea::-webkit-input-placeholder {
+  font: 200 14px/1.6 'Helvetica Neue';
+}
+
+```
+
 ### ::selection
 
 ```css
