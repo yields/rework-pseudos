@@ -3,6 +3,10 @@
  * Comment.
  */
 
+body {
+  font: 200 14px/1.6 'Open Sans';
+}
+
 ::-moz-selection {
   background: #ddd;
 }
