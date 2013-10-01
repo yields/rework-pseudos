@@ -3,6 +3,7 @@
   "description": "rework pseudo elements support",
   "version": "0.2.0",
   "dependencies": {},
+  "scripts": { "test": "make test" },
   "devDependencies": {
     "rework": "*",
     "should": "*",

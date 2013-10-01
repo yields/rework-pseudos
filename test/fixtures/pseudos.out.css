@@ -54,3 +54,21 @@ textarea:-ms-input-placeholder {
 textarea::-webkit-input-placeholder {
   font: 200 14px/1.6 'Helvetica Neue';
 }
+
+@media print {
+  ::-moz-placeholder {
+    font-weight: bold;
+  }
+
+  :-ms-input-placeholder {
+    font-weight: bold;
+  }
+
+  ::-webkit-input-placeholder {
+    font-weight: bold;
+  }
+
+  .text {
+    font-weight: bold;
+  }
+}
