@@ -1,3 +1,7 @@
+
+[![Build Status](https://travis-ci.org/yields/rework-pseudos.png)](https://travis-ci.org/yields/rework-pseudos)
+
+
 # rework-pseudos
 
 rework pseudo elements support
